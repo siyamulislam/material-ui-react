@@ -43,7 +43,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <Add/> 
         <Favorite/>
         <span><ThumbUp onClick={handelLike} style={{ color: likedColor }}/> <span><ThumbDown onClick={handelDislike} style={{ color: dislikedColor }} /></span></span>
