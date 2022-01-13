@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { Button, Fab } from '@mui/material';
 import { Add, AddIcCall, Favorite, LinkedCamera, SmsFailed, ThumbDown, ThumbUp } from '@mui/icons-material';
@@ -16,7 +15,7 @@ function App() {
     setDislikedColor(altColor);
   }
   const handelDislike = () => {
-    const color = dislikedColor ? '' : 'blue';
+    const color = dislikedColor ? '': 'blue';
     setDislikedColor(color);
     const altColor = !dislikedColor ? '' : 'blue';
     setLikedColor(altColor);
